@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>weather apllication</title>
+    <link rel="stylesheet" href="../weather/index.css">
+</head>
+
+<body class="">
+    <header>
+        <button id="theme-switch">
+            <img src="../images/darktheme.svg" id="toggle-dark" alt="Dark Mode Icon">
+            <img src="../images/day_lighgt.svg" id="toggle-day" alt="Light Mode Icon">
+        </button>
+    </header>
+
+        <form class="weatherform">
+            <input  type="text"  class="cityInput" placeholder="enter you city">
+            <button type="submit">Get Weather</button>
+        </form>
+
+            <div class="card" style="display: none;">
+                <h1 class="cityDisplay">miami</h1>
+                <p class="tempDisplay">90</p>
+                <p class="humidityDisplay">humidity:75%</p>
+                <p class="descDisplay">Thunderstorm</p>
+                <p class="weatherEmoji"> ☀️</p>
+                <p class="errorDisplay">please enter a city</p>
+
+            </div>
+
+
+
+
+
+<script src="../weather/index.js"></script>
+</body>
+</html>
